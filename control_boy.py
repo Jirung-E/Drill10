@@ -27,7 +27,7 @@ def create_world():
     running = True
 
     boy = Boy()
-    boy.y -= 20
+    boy.y -= 35
     game_world.add_object(boy, 1)
 
     grass = Grass()
